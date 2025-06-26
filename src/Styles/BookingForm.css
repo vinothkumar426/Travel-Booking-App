@@ -1,0 +1,59 @@
+.booking-form-section {
+  background-color: #0a192f;
+  color: white;
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+.booking-form-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #112240;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+.booking-form-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #00b4d8;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #00b4d8;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0077b6;
+}
+.datepicker-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
